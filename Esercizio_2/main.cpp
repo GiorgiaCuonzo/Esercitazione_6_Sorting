@@ -54,7 +54,7 @@ int main(int argc, char ** argv)
     }
     double time_BubbleSort_v = time_Bubble/iters;
     double time_MergeSort_v = time_Merge/iters;
-    cout << "Time in microseconds needed for sorting a random integers vector" << endl
+    cout << "Time in nanoseconds needed for sorting a random integers vector" << endl
          << "Bubblesort: " << time_BubbleSort_v << endl
          << "MergeSort : " << time_MergeSort_v << endl << endl;
 
@@ -75,7 +75,7 @@ int main(int argc, char ** argv)
     }
     double time_BubbleSort_w = time_Bubble/iters;
     double time_MergeSort_w = time_Merge/iters;
-    cout << "Time in microseconds needed for sorting a random doubles vector" << endl
+    cout << "Time in nanoseconds needed for sorting a random doubles vector" << endl
          << "Bubblesort: " << time_BubbleSort_w << endl
          << "MergeSort : " << time_MergeSort_w << endl << endl;
 
@@ -92,7 +92,7 @@ int main(int argc, char ** argv)
     }
     double time_BubbleSort_v3 = time_Bubble/iters;
     double time_MergeSort_v3 = time_Merge/iters;
-    cout << "Time in microseconds needed for sorting a ordered integers vector" << endl
+    cout << "Time in nanoseconds needed for sorting a ordered integers vector" << endl
          << "Bubblesort: " << time_BubbleSort_v3 << endl
          << "MergeSort : " << time_MergeSort_v3 << endl << endl;
 
@@ -114,7 +114,7 @@ int main(int argc, char ** argv)
     }
     double time_BubbleSort_v1 = time_Bubble/iters;
     double time_MergeSort_v1 = time_Merge/iters;
-    cout << "Time in microseconds needed for sorting a integers vector with the fist half of elements perturbed" << endl
+    cout << "Time in nanoseconds needed for sorting a integers vector with the fist half of elements perturbed" << endl
          << "Bubblesort: " << time_BubbleSort_v1 << endl
          << "MergeSort : " << time_MergeSort_v1 << endl << endl;
 
@@ -135,7 +135,7 @@ int main(int argc, char ** argv)
     }
     double time_BubbleSort_v2 = time_Bubble/iters;
     double time_MergeSort_v2 = time_Merge/iters;
-    cout << "Time in microseconds needed for sorting a integers vector with the second half of elements perturbed" << endl
+    cout << "Time in nanoseconds needed for sorting a integers vector with the second half of elements perturbed" << endl
          << "Bubblesort: " << time_BubbleSort_v2 << endl
          << "MergeSort : " << time_MergeSort_v2 << endl << endl;
 
@@ -159,7 +159,7 @@ int main(int argc, char ** argv)
     }
     double time_BubbleSort_v4 = time_Bubble/iters;
     double time_MergeSort_v4 = time_Merge/iters;
-    cout << "Time in microseconds needed for sorting a integers vector with pair-permutated elements" << endl
+    cout << "Time in nanoseconds needed for sorting a integers vector with elements switched in pairs" << endl
          << "Bubblesort: " << time_BubbleSort_v4 << endl
          << "MergeSort : " << time_MergeSort_v4 << endl << endl;
 
@@ -182,7 +182,7 @@ int main(int argc, char ** argv)
     }
     double time_BubbleSort_v5 = time_Bubble/iters;
     double time_MergeSort_v5 = time_Merge/iters;
-    cout << "Time in microseconds needed for sorting a ordered integers vector with the last element shifted in the front" << endl
+    cout << "Time in nanoseconds needed for sorting a ordered integers vector with the last element popped in the front" << endl
          << "Bubblesort: " << time_BubbleSort_v5 << endl
          << "MergeSort : " << time_MergeSort_v5 << endl << endl;
 
@@ -202,7 +202,7 @@ int main(int argc, char ** argv)
     }
     double time_BubbleSort_v6 = time_Bubble/iters;
     double time_MergeSort_v6 = time_Merge/iters;
-    cout << "Time in microseconds needed for sorting a ordered integers vector with the first and second halfs switched" << endl
+    cout << "Time in nanoseconds needed for sorting a ordered integers vector with the first and second halfs switched" << endl
          << "Bubblesort: " << time_BubbleSort_v6 << endl
          << "MergeSort : " << time_MergeSort_v6 << endl << endl;
 
